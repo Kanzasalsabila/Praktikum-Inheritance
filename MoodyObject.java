@@ -1,0 +1,12 @@
+
+package PraktikumInheritance;
+
+
+public class MoodyObject {
+    protected String getMood(){
+        return "moody";
+    }
+    public void speak(){
+        System.out.println("I am : "+getMood());
+    }
+}
